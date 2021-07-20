@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  MyProject
 //
-//  Created by OSX on 20/07/2021.
+//  Created by Aya Baghdadi.
 //
 
 import UIKit
@@ -11,7 +11,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
 
