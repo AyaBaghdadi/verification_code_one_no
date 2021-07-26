@@ -60,6 +60,7 @@
 		103FB6D726A779C2008B4ADF = {
 			isa = PBXGroup;
 			children = (
+				106FA72226AF7165006A334D /* Package.swift */,
 				103FB6E226A779C2008B4ADF /* MyProject */,
 				103FB6E126A779C2008B4ADF /* Products */,
 				00D2ED4D2917FDDE1C5BEF75 /* Pods */,
@@ -88,7 +89,6 @@
 				103FB6F726A78E54008B4ADF /* myNewVC.swift */,
 				106FA71A26AF4764006A334D /* README.md */,
 				106FA71C26AF4F40006A334D /* pens.yml */,
-				106FA72226AF7165006A334D /* Package.swift */,
 			);
 			path = MyProject;
 			sourceTree = "<group>";
