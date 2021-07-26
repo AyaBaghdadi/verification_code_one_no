@@ -6,7 +6,6 @@ target 'MyProject' do
   use_frameworks!
 
   # Pods for MyProject
-  pod 'IBAnimatable'
 
 
 end
