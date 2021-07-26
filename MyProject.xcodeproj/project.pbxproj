@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,8 +14,9 @@
 		103FB6ED26A779C3008B4ADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 103FB6EC26A779C3008B4ADF /* Assets.xcassets */; };
 		103FB6F026A779C3008B4ADF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 103FB6EE26A779C3008B4ADF /* LaunchScreen.storyboard */; };
 		103FB6F826A78E54008B4ADF /* myNewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103FB6F726A78E54008B4ADF /* myNewVC.swift */; };
-		106FA71B26AF4764006A334D /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 106FA71A26AF4764006A334D /* Readme.md */; };
+		106FA71B26AF4764006A334D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 106FA71A26AF4764006A334D /* README.md */; };
 		106FA71D26AF4F40006A334D /* pens.yml in Resources */ = {isa = PBXBuildFile; fileRef = 106FA71C26AF4F40006A334D /* pens.yml */; };
+		106FA71F26AF6CDE006A334D /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106FA71E26AF6CDE006A334D /* Package.swift */; };
 		DA77E4368D281F9D56703D89 /* Pods_MyProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8E6F9A05CE3300DA46ED64 /* Pods_MyProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,8 +30,9 @@
 		103FB6EF26A779C3008B4ADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		103FB6F126A779C3008B4ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		103FB6F726A78E54008B4ADF /* myNewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myNewVC.swift; sourceTree = "<group>"; };
-		106FA71A26AF4764006A334D /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		106FA71A26AF4764006A334D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		106FA71C26AF4F40006A334D /* pens.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = pens.yml; sourceTree = "<group>"; };
+		106FA71E26AF6CDE006A334D /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		89564377C9D85DEB25DA447F /* Pods-MyProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProject.release.xcconfig"; path = "Target Support Files/Pods-MyProject/Pods-MyProject.release.xcconfig"; sourceTree = "<group>"; };
 		BC8E6F9A05CE3300DA46ED64 /* Pods_MyProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9E7BA4DA1366C2DFABD6559 /* Pods-MyProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProject.debug.xcconfig"; path = "Target Support Files/Pods-MyProject/Pods-MyProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -86,8 +88,9 @@
 				103FB6EE26A779C3008B4ADF /* LaunchScreen.storyboard */,
 				103FB6F126A779C3008B4ADF /* Info.plist */,
 				103FB6F726A78E54008B4ADF /* myNewVC.swift */,
-				106FA71A26AF4764006A334D /* Readme.md */,
+				106FA71A26AF4764006A334D /* README.md */,
 				106FA71C26AF4F40006A334D /* pens.yml */,
+				106FA71E26AF6CDE006A334D /* Package.swift */,
 			);
 			path = MyProject;
 			sourceTree = "<group>";
@@ -160,7 +163,7 @@
 			files = (
 				103FB6F026A779C3008B4ADF /* LaunchScreen.storyboard in Resources */,
 				103FB6ED26A779C3008B4ADF /* Assets.xcassets in Resources */,
-				106FA71B26AF4764006A334D /* Readme.md in Resources */,
+				106FA71B26AF4764006A334D /* README.md in Resources */,
 				103FB6EB26A779C2008B4ADF /* Main.storyboard in Resources */,
 				106FA71D26AF4F40006A334D /* pens.yml in Resources */,
 			);
@@ -199,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				103FB6E826A779C2008B4ADF /* ViewController.swift in Sources */,
+				106FA71F26AF6CDE006A334D /* Package.swift in Sources */,
 				103FB6F826A78E54008B4ADF /* myNewVC.swift in Sources */,
 				103FB6E426A779C2008B4ADF /* AppDelegate.swift in Sources */,
 				103FB6E626A779C2008B4ADF /* SceneDelegate.swift in Sources */,
