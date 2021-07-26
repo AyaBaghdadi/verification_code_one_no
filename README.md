@@ -1,24 +1,26 @@
-# Tabbar_Container
+
 # Aya Baghdadi
 
-1. Open Your Story bored.
+## How to make verification code screen with write one value only in field & move to next field smoothly
 
-2. Create your UITabBarController.
+1. Create your design as 4 or 5 UITextField horizontal with the same Width & Height . 
 
-3. Add a new UIViewController.
+2. Connect UITextFields with viewController .
 
-4. From library add ( container view ) in your new UIViewController.
+3. Inherit viewController from ( UITextFieldDelegate ) .
 
-5. Add Constraint.
+4. In viewDidLoad add a delegate of each UITextField or add it from storyboard as you prefer .
 
-6. Remove view of container & connect container with UITabBarController as ( Embed ).
+5. For each UITextField add target action for ( editingChanged ) .
 
-7. Add your custom view want to appear in all screens of Tabbar.
+6. Add line as textField.becomeFirstResponder() to open keyboard for first field .
 
-8. Change background color to show.
+7. Add method textFieldDidChange with @objc .
 
-9.  Start with new UIViewController to show.
+8.  Get  let text = textField.text to get what is write .
 
-10. Run
+9. Check inside method if text count equal to (1) make the next becomeFirstResponder & if text count equal to (0) return to previous field .
 
-11.  If you want to control your design add a ViewController and connect it.
+10. In last field add the function dismissKeyboard to close your keyboard .
+
+### Thanks
