@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "MyProject",
+        "repositoryURL": "https://github.com/AyaBaghdadi/verification_code_one_no.git",
+        "state": {
+          "branch": "main",
+          "revision": "2e60a4fd9e17b3b845a95bd21f40b9bce653573e",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

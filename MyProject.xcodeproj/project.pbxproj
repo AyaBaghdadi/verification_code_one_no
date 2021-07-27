@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -142,6 +142,9 @@
 				Base,
 			);
 			mainGroup = 103FB6D726A779C2008B4ADF;
+			packageReferences = (
+				104BA20A26B0905B00CCB82C /* XCRemoteSwiftPackageReference "verification_code_one_no" */,
+			);
 			productRefGroup = 103FB6E126A779C2008B4ADF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -403,6 +406,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		104BA20A26B0905B00CCB82C /* XCRemoteSwiftPackageReference "verification_code_one_no" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AyaBaghdadi/verification_code_one_no.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 103FB6D826A779C2008B4ADF /* Project object */;
 }
