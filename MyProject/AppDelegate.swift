@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  MyProject
 //
-//  Created by OSX on 20/07/2021.
-//
+//  Created by Aya Baghdadi.
+//  2021
 
 import UIKit
 

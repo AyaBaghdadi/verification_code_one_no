@@ -13,7 +13,6 @@
 		103FB6EB26A779C2008B4ADF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 103FB6E926A779C2008B4ADF /* Main.storyboard */; };
 		103FB6ED26A779C3008B4ADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 103FB6EC26A779C3008B4ADF /* Assets.xcassets */; };
 		103FB6F026A779C3008B4ADF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 103FB6EE26A779C3008B4ADF /* LaunchScreen.storyboard */; };
-		103FB6F826A78E54008B4ADF /* myNewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103FB6F726A78E54008B4ADF /* myNewVC.swift */; };
 		106FA71B26AF4764006A334D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 106FA71A26AF4764006A334D /* README.md */; };
 		106FA71D26AF4F40006A334D /* pens.yml in Resources */ = {isa = PBXBuildFile; fileRef = 106FA71C26AF4F40006A334D /* pens.yml */; };
 /* End PBXBuildFile section */
@@ -27,7 +26,6 @@
 		103FB6EC26A779C3008B4ADF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		103FB6EF26A779C3008B4ADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		103FB6F126A779C3008B4ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		103FB6F726A78E54008B4ADF /* myNewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myNewVC.swift; sourceTree = "<group>"; };
 		106FA71A26AF4764006A334D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		106FA71C26AF4F40006A334D /* pens.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = pens.yml; sourceTree = "<group>"; };
 		89564377C9D85DEB25DA447F /* Pods-MyProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProject.release.xcconfig"; path = "Target Support Files/Pods-MyProject/Pods-MyProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -83,7 +81,6 @@
 				103FB6EC26A779C3008B4ADF /* Assets.xcassets */,
 				103FB6EE26A779C3008B4ADF /* LaunchScreen.storyboard */,
 				103FB6F126A779C3008B4ADF /* Info.plist */,
-				103FB6F726A78E54008B4ADF /* myNewVC.swift */,
 				106FA71A26AF4764006A334D /* README.md */,
 				106FA71C26AF4F40006A334D /* pens.yml */,
 			);
@@ -200,7 +197,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				103FB6E826A779C2008B4ADF /* ViewController.swift in Sources */,
-				103FB6F826A78E54008B4ADF /* myNewVC.swift in Sources */,
 				103FB6E426A779C2008B4ADF /* AppDelegate.swift in Sources */,
 				103FB6E626A779C2008B4ADF /* SceneDelegate.swift in Sources */,
 			);
@@ -412,8 +408,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/AyaBaghdadi/verification_code_one_no.git";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
