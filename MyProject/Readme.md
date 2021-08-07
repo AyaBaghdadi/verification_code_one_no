@@ -1,5 +1,5 @@
 
-# Aya Baghdadi
+# Technicalisto
 
 ## How to make verification code screen with write one value only in field & move to next field smoothly
 
@@ -24,3 +24,5 @@
 10. In last field add the function dismissKeyboard to close your keyboard .
 
 ### Thanks
+
+### Aya Baghdadi
